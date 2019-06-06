@@ -12,7 +12,7 @@ $ docker run -v "$(pwd)":"$(pwd)" \
              -e COMPOSE_PROJECT_NAME=$(basename "$(pwd)") \
              --workdir="$(pwd)" \
              -ti --rm \
-             dduportal/docker-compose:latest --help
+             wxinqwxq/docker-compose:latest --help
 ```
 
 **远程模式**
@@ -26,5 +26,5 @@ $ docker run -v "$(pwd)":"$(pwd)" \
              -e COMPOSE_PROJECT_NAME=$(basename "$(pwd)") \
              --workdir="$(pwd)" \
              --rm \
-             dduportal/docker-compose:latest up -d
+             wxinqwxq/docker-compose:latest up -d
 ```
