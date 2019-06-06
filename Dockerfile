@@ -1,6 +1,6 @@
 FROM centos:7.4.1708
 
-ENV COMPOSE_VERSION 1.12.0
+ENV COMPOSE_VERSION 1.23.2
 
 RUN curl -o /usr/local/bin/docker-compose -L \
 		"https://github.com/docker/compose/releases/download/${COMPOSE_VERSION}/docker-compose-Linux-x86_64" \
